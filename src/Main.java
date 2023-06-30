@@ -3,6 +3,13 @@ import com.gui.creation.factorymethod.products.*;
 
 public class Main {
     public static void main(String[] args) {
+
+        factoryMethod();
+
+
+    }
+
+    public static void factoryMethod(){
         Factory1 factory1 = new Factory1();
         Factory2 factory2 = new Factory2();
 
