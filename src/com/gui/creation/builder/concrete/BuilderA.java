@@ -23,10 +23,10 @@ public class BuilderA implements Builder {
     }
 
     public Product getProduct() {
-        return new ProductA();
+        return this.productA;
     }
 
     public BuilderA() {
-        System.out.println("Setting up builder 2");
+        System.out.println("Setting up builder B");
     }
 }

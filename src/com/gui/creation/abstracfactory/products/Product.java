@@ -1,6 +1,8 @@
-package com.gui.creation.factorymethod.products;
+package com.gui.creation.abstracfactory.products;
 
-public abstract class Product {
+import com.gui.creation.abstracfactory.contracts.cellphone;
+
+public abstract class Product implements cellphone {
     String name;
     double price;
     String description;

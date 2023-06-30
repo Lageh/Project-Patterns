@@ -1,6 +1,6 @@
 package com.gui.creation.builder.products;
 
-public class Product{
+public abstract class Product{
     String name;
     int quantity;
 
