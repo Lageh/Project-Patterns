@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38de4c0c-779a-44a3-9d61-eb52d0bc00b7" name="Changes" comment="Factory Method">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/Factory1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/Factory1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/Factory2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/Factory2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/ProductA1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductA1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/ProductA2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductA2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/ProductB1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductB1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/ProductB2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductB2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/ProductC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductC1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/ProductC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductC2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/contracts/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/contracts/Factory.java" afterDir="false" />
-    </list>
+    <list default="true" id="38de4c0c-779a-44a3-9d61-eb52d0bc00b7" name="Changes" comment="Implementing ABSTRACT METHOD" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Ru83SQyvD7lJZf3FmYD5mT15bx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Builder-Method",
     "last_opened_file_path": "D:/Projects/Project Patterns/src/com/gui/creation/factorymethod"
   }
 }]]></component>
@@ -87,7 +78,28 @@
       <option name="project" value="LOCAL" />
       <updated>1688093517050</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rearrange Packages.">
+      <created>1688094122438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688094122438</updated>
+    </task>
+    <task id="LOCAL-00003" summary="separate patterns">
+      <created>1688094535049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688094535049</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implementing ABSTRACT METHOD">
+      <created>1688095874513</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688095874513</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,7 +114,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Factory Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory Method" />
+    <MESSAGE value="Rearrange Packages." />
+    <MESSAGE value="separate patterns" />
+    <MESSAGE value="Implementing ABSTRACT METHOD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing ABSTRACT METHOD" />
   </component>
 </project>
