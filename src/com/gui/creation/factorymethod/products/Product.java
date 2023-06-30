@@ -1,4 +1,4 @@
-package com.gui.creation.factorymethod;
+package com.gui.creation.factorymethod.products;
 
 public abstract class Product {
     String name;

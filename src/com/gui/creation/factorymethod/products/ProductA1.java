@@ -1,4 +1,4 @@
-package com.gui.creation.factorymethod;
+package com.gui.creation.factorymethod.products;
 import com.gui.creation.factorymethod.contracts.ProductA;
 
 public class ProductA1 extends Product implements ProductA {

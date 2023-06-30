@@ -1,6 +1,5 @@
-import com.gui.creation.factorymethod.Factory1;
-import com.gui.creation.factorymethod.Factory2;
-import com.gui.creation.factorymethod.Product;
+import com.gui.creation.factorymethod.factories.*;
+import com.gui.creation.factorymethod.products.*;
 
 public class Main {
     public static void main(String[] args) {

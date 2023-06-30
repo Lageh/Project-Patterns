@@ -1,6 +1,6 @@
 package com.gui.creation.factorymethod.contracts;
 
-import com.gui.creation.factorymethod.Product;
+import com.gui.creation.factorymethod.products.Product;
 
 public interface Factory {
     Product CreateProductA(String name, String description, double cost);
