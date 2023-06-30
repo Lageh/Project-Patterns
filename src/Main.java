@@ -1,7 +1,9 @@
+import com.gui.creation.factorymethod.contracts.Factory;
 import com.gui.creation.factorymethod.factories.*;
 import com.gui.creation.factorymethod.products.*;
 
 public class Main {
+
     public static void main(String[] args) {
 
         factoryMethod();
