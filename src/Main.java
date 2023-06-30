@@ -1,4 +1,6 @@
-import com.gui.creation.factorymethod.contracts.Factory;
+import com.gui.creation.builder.concrete.BuilderA;
+import com.gui.creation.builder.concrete.Director;
+import com.gui.creation.builder.products.ProductA;
 import com.gui.creation.factorymethod.factories.*;
 import com.gui.creation.factorymethod.products.*;
 
@@ -6,12 +8,23 @@ public class Main {
 
     public static void main(String[] args) {
 
-        factoryMethod();
-
+        //clientFactoryMethod();
+        clientBuilderMethod();
 
     }
 
-    public static void factoryMethod(){
+    private static void clientBuilderMethod() {
+        Director director = new Director();
+        BuilderA builderA = new BuilderA();
+        director.makeProductB(builderA);
+        ProductA productB = (ProductA) builderA.getProduct();
+        productB.setName("lasanha");
+        System.out.println(productB.getParameterA());
+        productB.setParameterA("hii");
+        System.out.println(productB.getParameterA());
+    }
+
+    public static void clientFactoryMethod(){
         Factory1 factory1 = new Factory1();
         Factory2 factory2 = new Factory2();
 
