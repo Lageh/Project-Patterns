@@ -1,6 +1,6 @@
 package com.gui.creation.builder.concrete;
 
-import com.gui.creation.builder.contracts.Builder;
+import com.gui.creation.builder.interfaces.Builder;
 
 public class Director {
     public void makeProductA (Builder builder) {
