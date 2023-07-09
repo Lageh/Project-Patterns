@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38de4c0c-779a-44a3-9d61-eb52d0bc00b7" name="Changes" comment="overall improvements">
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/factories/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/factories/CellphoneFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/factories/Samsung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/factories/Xiaomi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/interfaces/Cellphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/Galaxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/Redmi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/prototype/interfaces/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/prototype/products/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/contracts/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/interfaces/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/contracts/cellphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/interfaces/cellphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/factories/apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/factories/apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/factories/samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/factories/samsung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/BuilderA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/BuilderA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/BuilderB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/BuilderB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/builder/contracts/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/builder/interfaces/Builder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +48,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "5-factory-method",
-    "last_opened_file_path": "D:/Projects/Project Patterns/src/com/gui/creation/factorymethod"
+    "git-widget-placeholder": "6-prototype-method",
+    "last_opened_file_path": "D:/Projects/Project Patterns/src/com/gui/creation/factorymethod",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
