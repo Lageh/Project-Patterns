@@ -1,6 +1,6 @@
 package com.gui.creation.builder.concrete;
 
-import com.gui.creation.builder.contracts.Builder;
+import com.gui.creation.builder.interfaces.Builder;
 import com.gui.creation.builder.products.Product;
 import com.gui.creation.builder.products.ProductA;
 

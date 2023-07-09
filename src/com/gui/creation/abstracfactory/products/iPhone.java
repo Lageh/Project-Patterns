@@ -1,7 +1,5 @@
 package com.gui.creation.abstracfactory.products;
-import com.gui.creation.abstracfactory.contracts.cellphone;
-
-import static sun.security.ssl.SSLLogger.warning;
+import com.gui.creation.abstracfactory.interfaces.cellphone;
 
 
 public class iPhone extends Product implements cellphone {

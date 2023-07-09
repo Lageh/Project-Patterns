@@ -1,6 +1,6 @@
 package com.gui.creation.abstracfactory.products;
 
-import com.gui.creation.abstracfactory.contracts.cellphone;
+import com.gui.creation.abstracfactory.interfaces.cellphone;
 
 public abstract class Product implements cellphone {
     String name;

@@ -1,6 +1,6 @@
 package com.gui.creation.abstracfactory.factories;
 
-import com.gui.creation.abstracfactory.contracts.Factory;
+import com.gui.creation.abstracfactory.interfaces.Factory;
 import com.gui.creation.abstracfactory.products.*;
 
 public class samsung implements Factory {

@@ -3,13 +3,30 @@ import com.gui.creation.builder.concrete.Director;
 import com.gui.creation.builder.products.ProductA;
 import com.gui.creation.abstracfactory.factories.*;
 import com.gui.creation.abstracfactory.products.*;
+import com.gui.creation.factorymethod.factories.Apple;
+import com.gui.creation.factorymethod.factories.CellphoneFactory;
+import com.gui.creation.factorymethod.factories.*;
+import com.gui.creation.factorymethod.interfaces.Cellphone;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        //clientFactoryMethod();
-        clientBuilderMethod();
+        //clientAbstractFactoryMethod();
+        //clientBuilderMethod();
+        clientFactoryMethod();
+
+    }
+
+    private static void clientFactoryMethod(){ // This is a very cool method. Very simple to use!
+
+        CellphoneFactory factory = new Xiaomi();
+
+        Cellphone cellphone = factory.createCellphone();
+
+        cellphone.makeCall();
+
+
 
     }
 
@@ -24,11 +41,11 @@ public class Main {
         System.out.println(productA.getParameterA());
     }
 
-    public static void clientFactoryMethod(){
+    private static void clientAbstractFactoryMethod(){
         samsung samsung = new samsung();
         apple apple = new apple();
 
-        String name = "Iphone";
+        String name = "Redmi";
         String description = "Melhor celular do mundo";
         double cost = 4000;
 

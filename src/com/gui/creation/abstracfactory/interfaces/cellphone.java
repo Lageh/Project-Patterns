@@ -1,4 +1,4 @@
-package com.gui.creation.abstracfactory.contracts;
+package com.gui.creation.abstracfactory.interfaces;
 
 public interface cellphone {
     void setProvider(String provider);

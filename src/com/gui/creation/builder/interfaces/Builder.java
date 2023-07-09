@@ -1,4 +1,4 @@
-package com.gui.creation.builder.contracts;
+package com.gui.creation.builder.interfaces;
 
 public interface Builder {
     void reset();

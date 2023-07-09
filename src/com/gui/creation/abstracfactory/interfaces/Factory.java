@@ -1,4 +1,4 @@
-package com.gui.creation.abstracfactory.contracts;
+package com.gui.creation.abstracfactory.interfaces;
 
 import com.gui.creation.abstracfactory.products.Product;
 

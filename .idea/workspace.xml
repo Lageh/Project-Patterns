@@ -4,28 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38de4c0c-779a-44a3-9d61-eb52d0bc00b7" name="Changes" comment="new files">
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/contracts/cellphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone_13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone_14.java" afterDir="false" />
+    <list default="true" id="38de4c0c-779a-44a3-9d61-eb52d0bc00b7" name="Changes" comment="overall improvements">
+      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/factories/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/factories/CellphoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/factories/Samsung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/factories/Xiaomi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/interfaces/Cellphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/Galaxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/Iphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/Redmi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/contracts/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/interfaces/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/contracts/cellphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/interfaces/cellphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/factories/apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/factories/apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/factories/samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/factories/samsung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/iPhone_14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/BuilderA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/BuilderA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/BuilderB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/BuilderB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/builder/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/builder/products/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/contracts/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/contracts/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/contracts/ProductA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/contracts/ProductB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/factories/Factory1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/factories/samsung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/factories/Factory2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/factories/apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/abstracfactory/products/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductA1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductA2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductB1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductB2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductC1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/factorymethod/products/ProductC2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/builder/concrete/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gui/creation/builder/contracts/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gui/creation/builder/interfaces/Builder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "5-factory-method",
     "last_opened_file_path": "D:/Projects/Project Patterns/src/com/gui/creation/factorymethod"
   }
 }]]></component>
@@ -87,44 +88,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="Project-Patterns" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="Project-Patterns" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="rebase">
       <created>1688138144913</created>
@@ -147,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688161109742</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="overall improvements">
+      <created>1688165908794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688165908794</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38de4c0c-779a-44a3-9d61-eb52d0bc00b7" name="Changes" comment="overall improvements" />
+      <created>1688169926571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688169926571</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +149,7 @@
     <MESSAGE value="rebase" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="new files" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files" />
+    <MESSAGE value="overall improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="overall improvements" />
   </component>
 </project>
