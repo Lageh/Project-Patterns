@@ -56,8 +56,9 @@ public class Client implements Prototype{
 
     @Override
     public Client clone() throws CloneNotSupportedException {
+        Client clone = new Client(this.name, this.phone, this.address, this.age);
         System.out.println("cloning....");
-        return this;
+        return clone;
     }
 
     public String toString() {
