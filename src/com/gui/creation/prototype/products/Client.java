@@ -2,10 +2,7 @@ package com.gui.creation.prototype.products;
 
 import com.gui.creation.prototype.interfaces.Prototype;
 
-import java.lang.reflect.Array;
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Client implements Prototype{
 
