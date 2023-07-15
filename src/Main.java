@@ -3,34 +3,33 @@ import com.gui.creation.builder.concrete.Director;
 import com.gui.creation.builder.products.ProductA;
 import com.gui.creation.abstracfactory.factories.*;
 import com.gui.creation.abstracfactory.products.*;
-import com.gui.creation.factorymethod.factories.Apple;
 import com.gui.creation.factorymethod.factories.CellphoneFactory;
 import com.gui.creation.factorymethod.factories.*;
 import com.gui.creation.factorymethod.interfaces.Cellphone;
 import com.gui.creation.prototype.products.Client;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
-
-import static javax.swing.UIManager.get;
 
 public class Main {
 
-    public static void main(String[] args) throws CloneNotSupportedException, IllegalAccessException {
+    public static void main(String[] args) throws CloneNotSupportedException {
 
-        //clientAbstractFactoryMethod();
-        //clientBuilderMethod();
-        //clientFactoryMethod();
+        clientAbstractFactoryMethod();
+        clientBuilderMethod();
+        clientFactoryMethod();
         clientPrototypeMethod();
     }
 
-    private static void clientPrototypeMethod() throws CloneNotSupportedException, IllegalAccessException {
+    private static void clientPrototypeMethod() throws CloneNotSupportedException {
         Client client = new Client("Guilherme","(11) 97609-5157", "Rua São Paulo", 27);
 
         Client client2 = client.clone();
+
         client2.setName("Maria");
 
-        System.out.println(client.toString() + client2.toString());
+        String result = client.toString();
+        String result2 = client2.toString();
+
+        System.out.println(result + result2);
 
     }
 

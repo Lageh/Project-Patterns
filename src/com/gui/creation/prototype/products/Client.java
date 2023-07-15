@@ -2,10 +2,7 @@ package com.gui.creation.prototype.products;
 
 import com.gui.creation.prototype.interfaces.Prototype;
 
-import java.lang.reflect.Array;
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Client implements Prototype{
 
@@ -56,8 +53,9 @@ public class Client implements Prototype{
 
     @Override
     public Client clone() throws CloneNotSupportedException {
+        Client clone = new Client(this.name, this.phone, this.address, this.age);
         System.out.println("cloning....");
-        return this;
+        return clone;
     }
 
     public String toString() {
